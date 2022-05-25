@@ -1,8 +1,10 @@
-somma = 0
+let somma = 0
+parseInt(somma)
 
 for (i = 0; i < 5; i++) {
     let num = prompt("inserisci un numero")
-    somma += num
+    parseInt(num)
+    somma += num;
 }
 
-console.log(somma)
+console.log(parseInt(somma))
