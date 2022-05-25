@@ -3,8 +3,9 @@ sommaBox = 0;
 
 do {
   let num = prompt("inserisci un numero");
-  box.push(parseInt(num));
-  sommaBox += num;
+  box.push(num);
+  numN = parseInt(num)
+  sommaBox += numN;
 } while (sommaBox <= 50);
 
-console.log(sommaBox);
+console.log(sommaBox - numN);
